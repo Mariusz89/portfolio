@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+  		<meta name="description" content="Contact">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="css/preloader.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link rel="stylesheet" type="text/css" href="css/contactForm.css">
+		<link rel="stylesheet" type="text/css" href="css/style5.css">
+		<link href="css/jquery.colorpanel.css" rel="stylesheet">
+	</head>
+	<body>
+		<?php include ('include_php/preloader.php');?>
+		<div class="header">
+			<?php include ('include_php/menu.php');?>
+		</div>	
+		<div class="main-section section1">
+			<div class="row">
+				<div class="col-12 col-m-12">
+					<h2>Contact</h2>
+				</div>
+			</div>
+		</div>	
+		<div class="main-section section2">
+			<div class="row">
+				<div class="col-12 col-m-12">
+					<div class="row">
+						<div class="col-6 col-m-6">
+							<h3>Get in <span class="logo_surname span1">Touch</span></h3>
+							<div id="map" class="map">
+							</div>
+							<table>		  
+								<tr> 
+								   <td><div class="i"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></div></td>
+								   <td class="color">Lenartowice</td>
+								</tr>
+								<tr>
+								   <td><div class="i"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></div>
+								   </td>
+								   <td class="table_td_mail"><a href="mailto:mariusz.kosior@onet.pl">mariusz.kosior@onet.pl</a></td>
+								</tr> 
+								<tr>
+								   <td><div class="i"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></div></td>
+								   <td class="color">728 169 036</td>
+								</tr>
+							</table>
+						</div>
+						<div class="col-6 col-m-6">
+							<div class="contact" >
+								<h3>Contact <span class="logo_surname span1">Form</span></h3>	
+								<form action="contactengine.php" class="contactForm"   method="post" >
+									<div class="container">
+										<input  type="text" name="Name" class="name" minlength="3" required="required" placeholder="Name must contain at least three characters" tabindex=1 autocomplete="off"/>
+										<span class="border span1"></span>
+									</div>
+									<div class="container">
+										<input type="email" name="Email" class="email" placeholder="name@example.com" required="required" tabindex=2 autocomplete="off"/>
+										<span class="border span1"></span>
+									</div>
+									<div class="container">	
+										<textarea name="Message" class="message" placeholder="Message must contain at least 5 characters" minlength="5" required="required" tabindex=4 autocomplete="off"></textarea>
+										<span class="border span1"></span>
+									</div>		
+									<input type="submit" name="submit" value="Send message" class="submit" tabindex=5 autocomplete="off">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  		<?php include ('include_php/colorPanel.php');?>
+		<?php include ('include_php/footer.php');?> 
+		<script src="js/google-map.js"></script>
+		<script async defer
+		  	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCURjQGYtKaeuv7bO--7KoKwSV_gc5zcT4&callback=initMap">
+		</script>
+		<script src="js/jquery-2.0.2.min.js"></script>
+		<script src="js/jquery.colorpanel.js"></script>
+		<script src="js/colorPanel.js"></script>	
+		<script src="js/main.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<script src="js/niceScroll.js"</script>
+		<script src="js/nav-icon.js"></script>
+		<script src="https://use.fontawesome.com/7dcbfbe87e.js"></script>
+		<script src="js/sticky-menu.js"></script>
+		<script src="js/local_storage.js"></script>	
+	</body>
+</html>

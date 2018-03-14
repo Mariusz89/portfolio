@@ -1,0 +1,4 @@
+$('#colorPanel').ColorPanel({
+	styleSheet: '#cpswitch'
+});
+	

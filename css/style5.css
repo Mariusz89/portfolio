@@ -1,0 +1,157 @@
+input {
+	margin: 0;
+	padding: 0;
+}
+
+.checkbox {
+  position: fixed;
+  padding: 0;
+  right: 19px;
+  top: 19px;
+  display: none;
+} 
+
+.label {
+	width: 30px;
+	padding: 0;
+  margin: 0;
+	position: fixed;
+	right: 10px;
+	top: 3px;
+	z-index:20;
+	-webkit-transition:.3s;
+	-moz-transition:.3s;
+	-o-transition:.3s;
+	transition:.3s;
+}
+
+.title {
+  margin-top: 60px;
+  -webkit-transition:1s;
+  width: 0%;
+  height: 0px;
+  opacity: 0;
+  background: -webkit-linear-gradient(left,rgba(28,202,162,1) 0%,rgba(49,209,129,1) 100%);
+}
+
+.mobiledropmenu:checked ~ .title {
+	-webkit-transition:1s;
+	width: 100%;
+	height: 180px;
+	opacity: 1;
+}
+				
+.button {
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 1.2em;
+}
+					
+
+a {
+	text-decoration: none;
+}		
+
+.nav-toggle { 
+  cursor: pointer; 
+  padding: 10px 35px 16px 0px; 
+  display: none; 
+  position: relative; 
+  right: 15px; 
+  top: 5px; 
+}
+
+.toggle span {
+  top: 15px; 
+}
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: -webkit-linear-gradient(left,rgba(28,202,162,1) 0%,rgba(49,209,129,1) 100%);
+  position: absolute;
+  display: block;
+  content: '';  
+}
+
+.nav-toggle span.background_green,
+.nav-toggle span.background_green:before,
+.nav-toggle span.background_green:after {
+    background: -webkit-linear-gradient(left,rgba(28,202,162,1) 0%,rgba(49,209,129,1) 100%);    
+}
+
+.nav-toggle span.background_orange,
+.nav-toggle span.background_orange:before,
+.nav-toggle span.background_orange:after {
+    background: linear-gradient(to right, rgb(255, 183, 94) 0%, rgb(237, 143, 3) 100%);    
+}
+
+.nav-toggle span.background_red,
+.nav-toggle span.background_red:before,
+.nav-toggle span.background_red:after {
+    background: linear-gradient(to right, rgba(255,153,102,1) 0%, rgba(255,94,98,1) 100%);   
+}
+
+.nav-toggle span.background_blue,
+.nav-toggle span.background_blue:before,
+.nav-toggle span.background_blue:after {
+    background: linear-gradient(to right, rgb(0, 198, 255) 0%, rgb(0, 114, 255) 100%);   
+}
+
+
+.nav-toggle span:before {
+  top: -10px; 
+}
+
+.nav-toggle span:after {
+  bottom: -10px;
+}
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+
+.nav-toggle.active span {
+  background: inherit;
+}
+
+.nav-toggle.active span:before, .nav-toggle.active span:after {
+  top: 0;
+}
+
+.nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+.nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+/*MEDIA QUERIES*/
+/* For mobile phones: */
+@media(max-width: 767px) {
+  .nav-toggle {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
