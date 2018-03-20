@@ -14,4 +14,5 @@
 $('#colorPanel').ColorPanel({
 	styleSheet: '#cpswitch'
 });
-		
+	
+

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
-
 * {
 	box-sizing: border-box;
 }
@@ -65,7 +63,7 @@ h1 {
     color: #49515d;
     font-size: 15px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: normal;
     opacity: .6;
 }
 
@@ -187,7 +185,7 @@ h1 {
 	padding: 30px 10px;
 	overflow: hidden;
     height: auto;
-    margin-bottom: 60px;
+    margin-bottom: 0;
 }
 
 /*GRID*/

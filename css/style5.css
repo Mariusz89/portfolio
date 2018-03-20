@@ -27,6 +27,7 @@ input {
 
 .title {
   margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
   -webkit-transition:1s;
   width: 0%;
   height: 0px;
