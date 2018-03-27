@@ -317,7 +317,6 @@ h1 {
 	position: relative;
 	bottom: 15px;
 	padding: 8px;
-	opacity: 0.5;
 	background-color: #fff;
 	border-radius: 4px;
 }
@@ -334,7 +333,6 @@ h1 {
 
 .heroku {
 	padding: 8px;
-	opacity: 0.5;
 	background-color: #fff;
 	border-radius: 4px;
 	position: relative;
@@ -364,7 +362,7 @@ h1 {
 
 .fa-node-js,
 .fa-react {
-	background: white;
+	background: #fff;
 }
 
 .fa-node-js {
