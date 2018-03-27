@@ -58,7 +58,6 @@ $("#greenButton").click(function () {
     $('.hamburger .line').css('background', setColour1);
     $('.title').css('background', setColour1);
     $('.nav-toggle span').attr('class', setColour2);
-    $('.da-thumbs li a div').attr('class', setColour2);
     $('.contactForm input.submit').css('background', setColour1);
     $('.contactForm input ~ .border').css('background', setColour1);
     $('.contactForm textarea ~ .border').css('background', setColour1);
@@ -90,7 +89,6 @@ $("#orangeButton").click(function () {
     $('.table_td_mail a').css("color", setColour);
     $('.title').css('background', setColour1);
     $('.nav-toggle span').attr('class', setColour2);
-    $('.da-thumbs li a div').attr('class', setColour2);
     $('.contactForm input.submit').css('background', setColour1);
     $('.contactForm input ~ .border').css("background", setColour1);
     $('.contactForm textarea ~ .border').css("background", setColour1);
@@ -123,7 +121,6 @@ $("#redButton").click(function () {
     $('.table_td_mail a').css("color", setColour);
     $('.title').css('background', setColour1);
     $('.nav-toggle span').attr('class', setColour2);
-    $('.da-thumbs li a div').attr('class', setColour2);
     $('.contactForm input.submit').css('background', setColour1);
     $('.contactForm input ~ .border').css("background", setColour1);
     $('.contactForm textarea ~ .border').css("background", setColour1);
@@ -156,7 +153,6 @@ $("#blueButton").click(function () {
     $('.table_td_mail a').css("color", setColour);
     $('.title').css('background', setColour1);
     $('.nav-toggle span').attr('class', setColour2);
-    $('.da-thumbs li a div').attr('class', setColour2);
     $('.contactForm input.submit').css('background', setColour1);
     $('.contactForm input ~ .border').css("background", setColour1);
     $('.contactForm textarea ~ .border').css("background", setColour1);

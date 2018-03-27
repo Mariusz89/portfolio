@@ -28,15 +28,14 @@ input {
 .title {
   margin-top: 60px;
   font-family: 'Roboto', sans-serif;
-  -webkit-transition:1s;
-  width: 0%;
+  -webkit-transition: 0.3s;
   height: 0px;
   opacity: 0;
   background: -webkit-linear-gradient(left,rgba(28,202,162,1) 0%,rgba(49,209,129,1) 100%);
 }
 
 .mobiledropmenu:checked ~ .title {
-	-webkit-transition:1s;
+	-webkit-transition: 0.3s;
 	width: 100%;
 	height: 180px;
 	opacity: 1;

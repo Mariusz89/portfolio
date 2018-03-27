@@ -4,8 +4,8 @@
 			<h1><a href="index.html" >Mariusz <span class="logo_surname">Kosiór</span></a></h1>
 		</div>
 		<ul>
-			<li>
-				<a id="home" href="index.html">Home</a>
+			<li id="home">
+				<a href="index.html">Home</a>
 			</li>
 			<li>
 				<a id="portfolio" href="portfolio.html" >Portfolio</a>

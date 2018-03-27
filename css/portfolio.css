@@ -277,14 +277,6 @@ h1 {
 	height: 100%;
 }
 
-.da-thumbs li:nth-child(odd):hover a div {
-	background: rgba(49, 209, 129, 0.7);
-}
-
-.da-thumbs li:nth-child(even):hover  a div{
-	background: rgba(255, 94, 98, 0.7);
-}
-
 .da-thumbs li a div span {
 	display: block;
 	padding: 10px 0;
@@ -294,9 +286,6 @@ h1 {
 	font-weight: bold;
 	font-size: 18px;
 	color: rgb(255,255,255);
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border-bottom: 1px solid rgba(255,255,255,0.5);
-	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 }
 
 .da-thumbs li a div {
@@ -308,6 +297,11 @@ h1 {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+.da-thumbs li:hover a div {
+	background: rgba(26, 26, 26, 0.7);
+}
+
 
 .da-thumbs li a:hover div{
 	left: 0px;
@@ -323,10 +317,28 @@ h1 {
 	position: relative;
 	bottom: 15px;
 	padding: 8px;
+	opacity: 0.5;
+	background-color: #fff;
+	border-radius: 4px;
 }
 
-.devicon-babel-plain {
+.devicon-babel-plain,
+.devicon-jquery-plain,
+.devicon-webpack-plain,
+.devicon-express-original,
+.devicon-heroku-plain-wordmark,
+.devicon-bootstrap-plain {
+	position: relative;
 	bottom: 13px;
+}
+
+.heroku {
+	padding: 8px;
+	opacity: 0.5;
+	background-color: #fff;
+	border-radius: 4px;
+	position: relative;
+	bottom: 3px;
 }
 
 .fa-html5 {
@@ -369,6 +381,10 @@ h1 {
 
 .devicon-webpack-plain {
 	color: #A6C2EA;
+}
+
+.ajax-api {
+	font-size: 10px;
 }
 
 span {
@@ -417,27 +433,6 @@ span {
 
 .menu li.background_blue:after {
     background: linear-gradient(to right, rgb(0, 198, 255) 0%, rgb(0, 114, 255) 100%);   
-}
-
-/*CHANGE COLORS LAYERS*/
-.da-thumbs li:nth-child(odd):hover a div.background_orange {
-    background-color: rgba(237, 143, 3, 0.7);   
-}
-
-.da-thumbs li:nth-child(odd):hover a div.background_blue {
-    background-color: rgba(0, 114, 255, 0.7);    
-}
-
-.da-thumbs li:nth-child(odd):hover a div.background_green {
-    background-color: rgba(49, 209, 129, 0.7); 
-}
-
-.da-thumbs li:nth-child(odd):hover a div.background_red {
-    background-color: rgba(255, 94, 98, 0.7);   
-}
-
-.da-thumbs li:nth-child(even):hover a div.background_red {
-    background-color: rgba(255, 94, 98, 0.7);   
 }
 
 .footer {

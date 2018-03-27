@@ -58,6 +58,7 @@
 @media(max-width: 767px) {
    .colorPanel {
         top: 117px;
+        display: none;
     }
 }
 
